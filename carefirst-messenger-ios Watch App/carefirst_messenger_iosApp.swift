@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct WatchTaskListSampleApp: App {
+struct carefirst_messenget_iosApp: App {
     
   @StateObject var itemListModel = ItemListModel()
     

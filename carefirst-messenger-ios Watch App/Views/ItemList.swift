@@ -9,7 +9,7 @@ struct ItemList: View {
         ItemRow(item: $item)
       }
       if model.items.isEmpty {
-        Text("No items to do!").foregroundStyle(.gray)
+        Text("No messages").foregroundStyle(.gray)
       }
     }
     .navigationTitle("Messages")
