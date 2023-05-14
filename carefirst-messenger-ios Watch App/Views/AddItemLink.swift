@@ -9,7 +9,7 @@ struct AddItemLink: View {
         Label("Add", systemImage: "plus.circle.fill")
        }
        onSubmit: {
-         model.items.append(ListItem($0))
+         model.items.append(ListItem($0, ""))
        }
        Spacer().frame(height: 5.0)
       }

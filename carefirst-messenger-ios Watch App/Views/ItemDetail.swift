@@ -9,12 +9,16 @@ struct ItemDetail: View {
         TextField("Item", text: $item.description, prompt: Text("List Item"))
       }
       Section("Message") {
+        TextField("Item", text: $item.message, axis: .vertical)
+          .lineLimit(3, reservesSpace: true)
+        /*
         Stepper(value: $item.estimatedWork,
           in: (0.0...14.0),
           step: 0.5,
           format: .number) {
             Text("\(item.estimatedWork, specifier: "%.1f") days")
           }
+         */
         }
             
         Toggle(isOn: $item.isComplete) {
@@ -38,6 +42,6 @@ struct ItemDetail: View {
 
 struct ItemDetail_Previews: PreviewProvider {
   static var previews: some View {
-    ItemDetail(item: .constant(ListItem("Build an app!")))
+    ItemDetail(item: .constant(ListItem("Jim Smith", "Foo")))
   }
 }

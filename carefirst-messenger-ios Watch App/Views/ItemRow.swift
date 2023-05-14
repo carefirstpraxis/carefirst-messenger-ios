@@ -32,6 +32,5 @@ struct ItemRow: View {
 
 struct ItemRow_Previews: PreviewProvider {
   static var previews: some View {
-     ItemRow(item: .constant(ListItem("Build an app!"))).environmentObject(ItemListModel())
-  }
+     ItemRow(item: .constant(ListItem("Jake Parol", "Foo"))).environmentObject(ItemListModel()) }
 }
