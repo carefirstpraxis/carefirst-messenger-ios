@@ -5,10 +5,10 @@ struct ItemDetail: View {
     
   var body: some View {
     Form {
-      Section("List Item") {
+      Section("Sender") {
         TextField("Item", text: $item.description, prompt: Text("List Item"))
       }
-      Section("Estimated Work") {
+      Section("Message") {
         Stepper(value: $item.estimatedWork,
           in: (0.0...14.0),
           step: 0.5,

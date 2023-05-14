@@ -8,17 +8,17 @@ extension ItemListModel {
   /// A list model with two items prepopulated for preview and testing.
   static var shortList: ItemListModel {
     let model = ItemListModel()
-    model.items.append(contentsOf: [ ListItem("Brainstorm app ideas"), ListItem("Design new app") ])
+    model.items.append(contentsOf: [ ListItem("Fred Jackson"), ListItem("Dr Bartley") ])
     return model
   }
     
   /// A list model with four items prepopulated for preview and testing.
   static var longList: ItemListModel {
     let model = ItemListModel()
-    model.items.append(ListItem("Brainstorm app ideas"))
-    model.items.append(ListItem("Design new app"))
-    model.items.append(ListItem("Start trademark search"))
-    model.items.append(ListItem("Build our story with team"))
+    model.items.append(ListItem("Fred Bartley"))
+    model.items.append(ListItem("Dr. Jackson"))
+    model.items.append(ListItem("PMG Labs"))
+    model.items.append(ListItem("Elaine Presley"))
     return model
   }
 }
