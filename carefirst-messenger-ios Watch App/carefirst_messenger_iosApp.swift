@@ -7,7 +7,8 @@ struct carefirst_messenger_iosApp: App {
     
   @SceneBuilder var body: some Scene {
     WindowGroup {
-      ContentView().environmentObject(itemListModel)
+      /// ContentView().environmentObject(itemListModel)
+      ContentView().environmentObject(ItemListModel.longList)
     }
   }
 }
