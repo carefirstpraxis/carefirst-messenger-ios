@@ -12,10 +12,7 @@ struct ItemList: View {
         Text("No items to do!").foregroundStyle(.gray)
       }
     }
-    .toolbar {
-      AddItemLink()
-    }
-    .navigationTitle("Tasks")
+    .navigationTitle("Messages")
   }
 }
 
