@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0126A1212A1079B8000CD176 /* carefirst_messenger_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0126A1202A1079B8000CD176 /* carefirst_messenger_iosApp.swift */; };
 		FD07CA2828247EEA00BBCDFF /* carefirst-messenger-ios Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FD07CA2728247EEA00BBCDFF /* carefirst-messenger-ios Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		FD07CA2D28247EEA00BBCDFF /* WatchTaskListSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07CA2C28247EEA00BBCDFF /* WatchTaskListSampleApp.swift */; };
 		FD07CA2F28247EEA00BBCDFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07CA2E28247EEA00BBCDFF /* ContentView.swift */; };
 		FD07CA3128247EEA00BBCDFF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07CA3028247EEA00BBCDFF /* ComplicationController.swift */; };
 		FD07CA3728247EEE00BBCDFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD07CA3628247EEE00BBCDFF /* Assets.xcassets */; };
@@ -52,12 +52,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0126A1202A1079B8000CD176 /* carefirst_messenger_iosApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = carefirst_messenger_iosApp.swift; sourceTree = "<group>"; };
 		939A8793147B4BC60A918083 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B24433A905571E0B80FBE856 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C5CE92A0A0E1235C7F094389 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		FD07CA2128247EEA00BBCDFF /* carefirst-messenger-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "carefirst-messenger-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD07CA2728247EEA00BBCDFF /* carefirst-messenger-ios Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "carefirst-messenger-ios Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD07CA2C28247EEA00BBCDFF /* WatchTaskListSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTaskListSampleApp.swift; sourceTree = "<group>"; };
 		FD07CA2E28247EEA00BBCDFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD07CA3028247EEA00BBCDFF /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		FD07CA3628247EEE00BBCDFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 		FD07CA2B28247EEA00BBCDFF /* carefirst-messenger-ios Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				FD07CA2C28247EEA00BBCDFF /* WatchTaskListSampleApp.swift */,
+				0126A1202A1079B8000CD176 /* carefirst_messenger_iosApp.swift */,
 				FD07CA4728247F6400BBCDFF /* Models */,
 				FD07CA4628247F4F00BBCDFF /* Views */,
 				FD07CA3028247EEA00BBCDFF /* ComplicationController.swift */,
@@ -280,12 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD07CA2F28247EEA00BBCDFF /* ContentView.swift in Sources */,
+				0126A1212A1079B8000CD176 /* carefirst_messenger_iosApp.swift in Sources */,
 				FDDC489528283C9800793AEA /* IntegerFormatStyle.swift in Sources */,
 				FD07CA4B28247FC300BBCDFF /* ListItem.swift in Sources */,
 				FDDC48932828304F00793AEA /* DateFormatStyle.swift in Sources */,
 				FD12C852282484BD00D46037 /* ProductivityChart.swift in Sources */,
 				FD12C84C2824841F00D46037 /* AddItemLink.swift in Sources */,
-				FD07CA2D28247EEA00BBCDFF /* WatchTaskListSampleApp.swift in Sources */,
 				FDCAA17728259DEB00452425 /* ItemDetail.swift in Sources */,
 				FD07CA3128247EEA00BBCDFF /* ComplicationController.swift in Sources */,
 				FD12C84E2824844000D46037 /* ItemList.swift in Sources */,
